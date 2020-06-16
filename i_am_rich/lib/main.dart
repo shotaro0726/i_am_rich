@@ -4,14 +4,15 @@ import 'package:flutter/material.dart';
 void main() => runApp(
       MaterialApp(
         home: Scaffold(
-            appBar: AppBar(
-              title: Text('I Am Rich'),
-              backgroundColor: Colors.greenAccent[000],
+          appBar: AppBar(
+            title: Text('I Am Rich'),
+            backgroundColor: Colors.greenAccent,
+          ),
+          body: Center(
+            child: Image(
+              image: AssetImage('image/p.jpg'),
             ),
-            body: Center(
-              child: Image(
-                image: AssetImage('image/p.jpg'),
-              ),
-            )),
+          ),
+        ),
       ),
     );
